@@ -127,13 +127,6 @@ predictions.write.mode("overwrite").parquet("gs://my-bigdata-project-ky/trusted/
 cvModel.write().overwrite().save("gs://my-bigdata-project-ky/models/LogisticRegression_model")
 
 
-# In[3]:
-
-
-# Save model
-cvModel.write().overwrite().save("gs://my-bigdata-project-ky/models/LogisticRegression_model")
-
-
 
 
 
